@@ -26,6 +26,7 @@ All the data can be found in the ```data``` folder. It is structured as follows:
 
 Both model training (*from scratch*) and fine-tuning can be done using the ```run_clm.py``` script.
 The notebooks in ```./notebooks/train.ipynb``` and ```./notebooks/fine_tuning.ipynb``` shows how to run both processes in a Google Colab environment. 
+The model checkpoint used in both RQ2 and RQ3 can be downloaded [here](https://drive.google.com/drive/folders/1lHlZuO5eCfhfNFo_HevTpiK1B_ZkDxZ2?usp=sharing).
 
 For example, to fine-tune the [CodeGPT model](https://huggingface.co/microsoft/CodeGPT-small-java), the following command can be ran:
 ```sh
